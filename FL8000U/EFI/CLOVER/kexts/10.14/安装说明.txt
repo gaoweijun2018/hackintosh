@@ -1,0 +1,7 @@
+1. 删除S/L/E内的 IO80211Family.kext和IO80211FamilyV2.kext
+2. 把corecapture.kext  、 CoreCaptureResponder.kext 、IO80211Family.kext放到L/E（不是S/L/E）
+
+3. 打开kext utility，会自动修复权限
+
+4. 重启，然后享受Wi-Fi的快感！
+（以后每次启动会自动连上之前已经连接的Wi-Fi，亲测）
